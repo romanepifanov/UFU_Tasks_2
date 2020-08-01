@@ -15,28 +15,28 @@
 * Corps
 * Telephone
 * NameDean
-*Override ToString method for Deanery model*
+*2) Override ToString method for Deanery model*
 
-*2) Create child class "Chair". It should has property:*
+*3) Create child class "Chair". It should has property:*
 * Name
 * Owner
 * TrainingDirection
-*Override ToString method for Deanery model*
+*4) Override ToString method for Deanery model*
 
-*3) Create child class "DepartmentTeacher". It should has property:*
+*5) Create child class "DepartmentTeacher". It should has property:*
 * Name
 * Chair
 * Position
 * Experience
 * Disciplines
-*Override ToString method for Deanery model*
+*6) Override ToString method for Deanery model*
 
-*4) Create child class "FacultyComposition". It should has property:*
+*7) Create child class "FacultyComposition". It should has property:*
 * Name
 * Position
-*Override ToString method for Deanery model*
+*8) Override ToString method for Deanery model*
 
-*5) Also create class for store faculties. Methods:*
+*9) Also create class for store faculties. Methods:*
 * Add faculty
 * Show all faculties
 
