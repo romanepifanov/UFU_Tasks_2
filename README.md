@@ -1,48 +1,49 @@
 **Task  One ->**
-*1) Create program with one Model "Car". It should has property:*
-* Model - in constructor
-* IssueYear - in constructor
-* Price - in constructor 
-* Equipment - in constructor 
-* ProducingCountry - in constructor 
-* SaleDate 
-* Buyer 
+*1) Create program with one Model "Deanery". It should has property:*
+* NameFaculty - in constructor
+* Room - in constructor
+* Corps - in constructor 
+* Telephone - in constructor 
+* NameDean - in constructor 
 
-*2) Override ToString method for Car model*
+*2) Override ToString method for Deanery model*
 
 **Task  Two ->**
-*1) Create parent class "Car". It should has property:*
-* Model - in constructor
-* IssueYear - in constructor
-* Price - in constructor 
-* Equipment - in constructor 
-* ProducingCountry - in constructor 
-* SaleDate 
-* Buyer 
+*1) Create parent class "NameFaculty". It should has property:*
+* NameFaculty
+* Room
+* Corps
+* Telephone
+* NameDean
+*Override ToString method for Deanery model*
 
-*2) Create child class "UsedCar". It should has property:*
-* SafetyDegree - in constructor
-* Owner - in constructor
-* Mileage - in constructor 
+*2) Create child class "Chair". It should has property:*
+* Name
+* Owner
+* TrainingDirection
+*Override ToString method for Deanery model*
 
-*3) Create child class "SportCar". It should has property:*
-* Seconds - in constructor
-* EngineDisplacement - in constructor
-* Power - in constructor
+*3) Create child class "DepartmentTeacher". It should has property:*
+* Name
+* Chair
+* Position
+* Experience
+* Disciplines
+*Override ToString method for Deanery model*
 
-*4) Create child class "SpecialCar". It should has property:*
-* Kind - in constructor
-* Weight - in constructor
-* OverallDimensions - in constructor
+*4) Create child class "FacultyComposition". It should has property:*
+* Name
+* Position
+*Override ToString method for Deanery model*
 
-*5) Also create class for store sold cars. Methods:*
-* Sell car
-* Show all cars
+*5) Also create class for store faculties. Methods:*
+* Add faculty
+* Show all faculties
 
 **Task There ->**
 *1) Add to class methods:*
-* Sort by Model
-* Sort by Price
+* Sort by corps (DESC/ASC)
+* Sort by faculty name (DESC/ASC)
 
 **Task Four ->**
 *1) Create user menu*
